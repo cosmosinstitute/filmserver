@@ -90,4 +90,32 @@ nav{
 }
 .heading{
   text-align: center;
+  padding-bottom: 25vw;
  }
+.firstrow{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5vw ;
+  padding-bottom: 5vw;
+}
+.genre1{
+  height: 14vw;
+  border-radius: 1vw;
+  width: 10vw;
+  position: relative;
+  background-color:rgb(196, 128, 128);
+}
+.genre2{
+  height: 14vw;
+  border-radius: 1vw;
+  width: 10vw;
+  position: relative;
+  background-color:rgb(92, 160, 92);
+}
+#genrebody{
+  background-image: url(batman-4k-computer-desktop-backgrounds-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+}
