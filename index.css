@@ -140,3 +140,51 @@ nav{
 #homebutton h4:hover a{
   color: white;
 }
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 200px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.box1:hover {
+  background-color: #7fdb34;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 200px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.box2:hover {
+  background-color: #3498db;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.genrerow1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1vw;
+}
+.genrerow2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1vw;
+}
