@@ -10,6 +10,7 @@ html,body{
 
 }
 #page1{
+  min-height: 100vw;
   height: 100vh;
   position: relative;
   background-color:#fff;
@@ -245,10 +246,19 @@ nav{
 }
 @keyframes anime2 {
   from{
-    transform: translate(10%,-10%);
+    transform: translate(20%,-15%);
   }
   to{
-    transform: translate(-10%,10%);
+    transform: translate(-20%,20%);
   }
   
+}
+#homevideo{
+  width: 96%;
+  
+  
+  margin-top: 4vw;
+  border-radius: 2vw;
+  position: absolute;
+  z-index: 10;
 }
