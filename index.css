@@ -304,6 +304,6 @@ form{
     transform: translateX(0);
   }
   to{
-    transform: translateX(-10%);
+    transform: translateX(-100%);
   }
 }
