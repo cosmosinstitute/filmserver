@@ -9,6 +9,7 @@ html,body{
   width: 100%;
 
 }
+
 #page1{
   min-height: 100vw;
   height: 100vh;
@@ -259,4 +260,50 @@ nav{
   border-radius: 2vw;
   position: absolute;
   z-index: 10;
+}
+form{
+  text-align: center;
+  padding-top: 10vw;
+}
+#page2{
+  min-height: 100vw;
+  width: 100%;
+  
+  padding: 8vw 0;
+}
+#moving-text{
+  white-space: nowrap;
+  overflow: auto;
+}
+#moving-text::-webkit-scrollbar{
+  display: none;
+}
+#moving-text h1{
+  font-size: 9vw;
+ 
+  display: inline-block;
+}
+.con{
+  white-space: nowrap;
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.gola{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color:#fe320a ;
+  display: inline-block;
+  margin: 1vw 3vw;
+}
+@keyframes move {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
 }
